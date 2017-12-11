@@ -31,7 +31,7 @@ namespace dotnetcore_sample
             // Add framework services.
             services.AddMvc();
             
-            var test = "test pull trigger";
+            var test = "test pull trigger"
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
