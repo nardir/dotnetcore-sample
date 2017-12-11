@@ -33,5 +33,12 @@ namespace dotnetcore_tests
           // Assert
           Assert.AreEqual("Your contact page.", result.ViewData["Message"]);
         }
+        
+        [TestMethod]
+        public void Fail()
+        {
+            //Assert
+            Assert.AreEqual(true, false);
+        }
     }
 }
